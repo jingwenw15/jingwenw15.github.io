@@ -2,8 +2,8 @@
 
 .App {
   text-align: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .App-logo {
@@ -34,7 +34,7 @@ main, footer {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 25% }
+  to { width: 100% }
 }
 
 @keyframes blink-caret {
@@ -63,8 +63,8 @@ li {
 
 section {
   text-align: left;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: '10%';
+  margin-right: '10%';
 }
 
 footer {
