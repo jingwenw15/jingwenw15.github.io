@@ -33,6 +33,7 @@ function App() {
             </ul>
             <p><b>Stanford University</b></p>
             <ul>
+              <li>Course Assistant [Spring 2024] - CS224N: Natural Language Processing with Deep Learning</li>
               <li>Course Assistant [Winter 2024] - CS124: From Languages to Information</li>
               <li>Course Assistant [Fall 2023] - CS145: Data Management and Data Systems</li>
               <li>Research Assistant [Summer 2020] - Radiological Sciences Laboratory, KBP Lab</li>
@@ -50,8 +51,8 @@ function App() {
         <section>
           <h2>Courses</h2>
           <ul>
-            <li><b>Artificial Intelligence</b> (NLP, Computer Vision, Deep Learning, Reinforcement Learning): CS224N, CS230, CS221, CS238, CS124, CS131</li>
-            <li><b>Math + CS Theory</b> (Calculus, Optimization, Discrete Math, Probability, Linear Algebra, Real Analysis, Complexity, Algorithms): MATH51, MATH52, MATH113, MATH115, CS103, CS109, CS154, CS361, CS161</li>
+            <li><b>Artificial Intelligence</b> (NLP, CV, DL, RL, Robotics): CS224N, CS230, CS221, CS238, CS223A, CS124, CS131</li>
+            <li><b>Math + CS Theory</b> (Calculus, Optimization, Discrete Math, Probability, Linear Algebra, Real Analysis, Complexity, Algorithms): MATH51, MATH52, MATH113, MATH115, CS103, CS109, CS154, CS361, CS161, CS205L</li>
             <li><b>Human-Computer Interaction</b> (Mobile/Web Dev, Social Computing): CS193X, CS47, CS278</li>
             <li><b>Systems + Security</b>: CS107, CS110, CS155, CS145</li>
             <li><b>Miscellaneous</b> (Graphics, Comp Bio, EE): CS148, CS274, ENGR40M</li>
@@ -80,7 +81,7 @@ function App() {
           <h2>Fun</h2>
           <p>Outside of CS, I am hugely passionate about music! I was part of <a href="https://stanfordotone.com">O-Tone</a>, Stanford's East Asian A Cappella group, for a few years in my undergrad. I also have my own YouTube channel, where I post song covers (mainly of K-Pop),
           and enjoy producing my own music using Logic Pro and some fun electronic instruments. I've also taken MUSIC 123E: Electronic Music Composition, where I produced, composed, and recorded vocals for
-          my own EP album. Although I've played piano since third grade, I also like to experiment around on a guitar or ukulele whenever I get a chance.</p>
+          my own EP album. Though piano was my first instrument, I also like to experiment around on a guitar or ukulele whenever I get a chance.</p>
           <p>I've also taken up knitting as a relaxing pastime (and hope to also learn crocheting next)! And although Chinese is my first language, my interest in learning various languages had prompted me to study Spanish for 4 years in high school, and
             also more recently, Korean. 
           </p>
