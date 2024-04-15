@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'; // Import your CSS file for styling
+import ReactPlayer from 'react-player';
 
 const Typewriter = ({ text }) => {
   return (
@@ -78,13 +79,39 @@ function App() {
           </ul>
         </section>
         <section>
-          <h2>Fun</h2>
+          <h2>Music</h2>
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: 'center' }}>
+            <ReactPlayer style={{marginRight: '5%'}}
+             url="https://soundcloud.com/prodjingwen/stay-in-love?si=89ff8911f9484f91b710762f575d3d23&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width='30%' height='10%' config={{
+              soundcloud: {
+                options: {
+                  sharing: true
+                }
+              }
+            }} />
+            <ReactPlayer style={{marginRight: '5%'}}
+            url="https://soundcloud.com/prodjingwen/winter?si=e41654687d354b358292ebee424dac82&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            width='30%' height='10%' config={{
+              soundcloud: {
+                options: {
+                  sharing: true
+                }
+              }
+            }} />
+            <ReactPlayer 
+            url="https://soundcloud.com/prodjingwen/dice?si=e7d16acd598c454999123a16860615ec&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            width='30%' height='10%' config={{
+              soundcloud: {
+                options: {
+                  sharing: true
+                }
+              }
+            }} />
+          </div>
           <p>Outside of CS, I am hugely passionate about music! I was part of <a href="https://stanfordotone.com">O-Tone</a>, Stanford's East Asian A Cappella group, for a few years in my undergrad. I also have my own YouTube channel, where I post song covers (mainly of K-Pop),
-          and enjoy producing my own music using Logic Pro and some fun electronic instruments. I've also taken MUSIC 123E: Electronic Music Composition, where I produced, composed, and recorded vocals for
-          my own EP album. Though piano was my first instrument, I also like to experiment around on a guitar or ukulele whenever I get a chance.</p>
-          <p>I've also taken up knitting as a relaxing pastime (and hope to also learn crocheting next)! And although Chinese is my first language, my interest in learning various languages had prompted me to study Spanish for 4 years in high school, and
-            also more recently, Korean. 
-          </p>
+            and enjoy producing my own music using Logic Pro and some fun electronic instruments. I've also taken MUSIC 123E: Electronic Music Composition, where I produced, composed, and recorded vocals for
+            my own EP album. Though piano was my first instrument, I also like to experiment around on a guitar or ukulele whenever I get a chance.</p>
+          <p>Above are some of the songs composed and produced by me!</p>
         </section>
       </main>
       <footer>
