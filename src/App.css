@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 .App {
   text-align: center;
@@ -24,7 +25,8 @@
   font-family: 'Noto Serif'
 }
 
-main, footer {
+main,
+footer {
   font-family: 'Noto Serif'
 }
 
@@ -33,21 +35,34 @@ main, footer {
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  10% { border-color: pink; }
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  10% {
+    border-color: pink;
+  }
 }
 
 .typing-effect {
-  overflow: hidden; 
-  border-right: .15em solid pink; /* The typwriter cursor */
+  overflow: hidden;
+  border-right: .15em solid pink;
+  /* The typwriter cursor */
   white-space: nowrap;
-  letter-spacing: .2em; 
-  animation: 
+  letter-spacing: .2em;
+  animation:
     typing 6s steps(30, end) 2s infinite,
     blink-caret 0.5s infinite;
 }
@@ -69,4 +84,41 @@ section {
 
 footer {
   margin-top: 10rem;
+}
+
+.navButton {
+  display: 'flex'; 
+  flex-direction: 'row';
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.navLink {
+  display: inline-block;
+  /* padding: 0px 20px 0px 20px; */
+  text-decoration: none;
+  color: #4A3F45;
+  font-family: "Urbanist";
+}
+
+.navLink:hover {
+  /* background-color: pink; */
+  color: #90155D;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  /* padding: 10px; */
+}
+
+.line {
+  height: 1px;
+  width: 100%; /* Adjust width as needed */
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: lightslategray;
 }
