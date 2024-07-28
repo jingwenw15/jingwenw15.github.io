@@ -35,11 +35,7 @@ function Thoughts() {
                         recognizes the countless sacrifices needed, and is hoping to guide others along this road too. 
                         </p>
                         <p>
-                            When I was younger, "So Far Away" heavily resonated with me, because I kept trying to find my purpose. As the years flew by, I learned that I like creating things - whether that's 
-                            writing lyrics, or layering melodies over synth tracks, or coding an app, I love the feeling of breathing life into my work. It is a blessing
-                            to call a project your own. And yet, things are not always as simple as having time to drop everything and sit there for hours, interrupted, working
-                            on your creations. With life comes necessary responsibilities, and I still struggle with reconciling what I want to do with what has to be done. 
-                            For all these reasons, "Snooze" brings me a lot of comfort. The piano backtrack and soft background vocals are a soothing choice, and I have always admired
+                            The piano backtrack and soft background vocals are a soothing choice, and I have always admired
                             Agust D's ability to communicate strong emotions so clearly: of hopelessness, yearning, and now strength. It's present in all the artistic choices: 
                             the steady but uncomplicated beat, how the song begins as a calm reflection but intensely rises in conviction by the last verse, and Woosung's vocals in 
                             the unchanging chorus that speaks of comfort and faith that despite whatever trials await on your journey, you will be alright. 
@@ -49,8 +45,7 @@ function Thoughts() {
                         <u>"Fear" - SEVENTEEN</u>
                         <p>
                             I must admit, I strongly admire this song's artistry. It's a difficult task to bring 13 individuals together on a track and present one cohesive story, and 
-                            an even more difficult task to have every aspect of the work, from the lyrics to the composition to the production, fit so perfectly in this story. For most songs, I can think of at least one choice
-                            I personally would have made differently, whether it's switching an out-of-place instrument or adding an additional chorus. But in "Fear", everything feels so purposeful. 
+                            an even more difficult task to have every aspect of the work, from the lyrics to the composition to the production, fit so perfectly in this story. 
                             </p>
                             <p>
                              Although the song is under 3 minutes, it still feels complete and 
