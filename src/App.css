@@ -89,8 +89,8 @@ footer {
 .navButton {
   display: 'flex'; 
   flex-direction: 'row';
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .navLink {
@@ -115,10 +115,18 @@ footer {
   /* padding: 10px; */
 }
 
-.line {
+.line-right {
   height: 1px;
   width: 100%; /* Adjust width as needed */
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 9%;
+  margin-right: 0%;
+  background-color: lightslategray;
+}
+
+.line-left {
+  height: 1px;
+  width: 100%; /* Adjust width as needed */
+  margin-left: 0%;
+  margin-right: 9%;
   background-color: lightslategray;
 }

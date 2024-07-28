@@ -39,10 +39,13 @@ function Music() {
                                 }
                             }} />
                     </div>
-                    <p>Outside of CS, I am hugely passionate about music! I was part of <a href="https://stanfordotone.com">O-Tone</a>, Stanford's East Asian A Cappella group, for a few years in my undergrad. I have my own YouTube channel where I post song covers (mainly of K-Pop),
-                        and I enjoy producing my own music using Logic Pro and some fun electronic instruments. I've also taken MUSIC 123E: Electronic Music Composition, where I produced, composed, and recorded vocals for
-                        my own EP album. Though piano was my first instrument, I also like to experiment around on a guitar or ukulele whenever I get a chance.</p>
-                    <p>Above are some of the songs composed and produced by me!</p>
+                    <p>If there's anything to know about me... I am hugely passionate about music. It's been a part of my life since I can remember, after taking lessons in piano, guitar, and voice throughout my childhood and teenage years. Becoming
+                        a professional singer has always been a dream of mine. Maybe it's a little futile now, but I still want to put my creations out there into the universe, so here we are! Self-fulfillment, or something like that...</p>
+                 <p>I sang Soprano for <a href="https://stanfordotone.com">O-Tone</a>, Stanford's East Asian A Cappella group, for a few years in my undergrad (although I'm more of a Mezzo). I also have my own YouTube channel where I post song covers (mainly of K-Pop).
+                    </p>
+                     <p>I enjoy producing my own music, mainly using Logic Pro and some fun electronic instruments. More formally, I've also taken MUSIC 123E: Electronic Music Composition, where I produced, composed, and recorded vocals for
+                        my own EP album. </p>
+                    <p>Above are some of my songs!</p>
                 </section>
             </main>
             <footer>

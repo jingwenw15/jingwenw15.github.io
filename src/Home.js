@@ -21,8 +21,8 @@ function Home() {
               <img src={process.env.PUBLIC_URL + 'favicon.png'} style={{ width: '25%', height: '25%', marginRight: '5%' }} />
               <div>
                 <Typewriter text={"Hi, I'm Jingwen!"} />
-                <p>I am currently a <b>Master's student</b> in <b>Computer Science</b> (AI Track) at <b>Stanford University</b>, graduating in June 2024.</p>
-                <p>I obtained my <b>B.S. with Distinction</b> in <b>Computer Science</b> (AI Track) in June 2023, also from Stanford.</p>
+                <p>I recently graduated with a <b>Master's</b> in <b>Computer Science</b> (AI Track) at <b>Stanford University</b> in June 2024.</p>
+                <p>I obtained my <b>B.S. with Distinction</b> in <b>Computer Science</b> (AI Track) in June 2023, also from <b>Stanford</b>.</p>
                 <p>Connect with me on <a href="https://www.linkedin.com/in/jingwen15">LinkedIn</a> and <a href="https://github.com/jingwenw15">GitHub</a>! </p>
               </div>
             </div>
@@ -32,6 +32,7 @@ function Home() {
               <h2>Work</h2>
               <p><b>Microsoft Corporation</b></p>
               <ul>
+                <li>Software Engineer [July 2024 - Current] - Developer Division, Azure NGINX</li>
                 <li>Software Engineer Intern [Summer 2023] - Developer Division, Azure NGINX</li>
                 <li>Software Engineer Intern [Summer 2022] - Developer Division, Azure Diagnostic Services</li>
                 <li>Explore Intern [Summer 2021] - Developer Division, Azure Diagnostic Services</li>
@@ -56,11 +57,11 @@ function Home() {
           <section>
             <h2>Courses</h2>
             <ul>
-              <li><b>Artificial Intelligence</b> (NLP, CV, DL, RL, Robotics): CS224N, CS230, CS221, CS238, CS223A, CS124, CS131</li>
+              <li><b>Artificial Intelligence</b> (NLP, CV, DL, RL, Robotics): CS224N, CS231N, CS230, CS221, CS238, CS223A, CS124, CS131</li>
               <li><b>Math + CS Theory</b> (Calculus, Optimization, Discrete Math, Probability, Linear Algebra, Real Analysis, Complexity, Algorithms): MATH51, MATH52, MATH113, MATH115, CS103, CS109, CS154, CS361, CS161, CS205L</li>
               <li><b>Human-Computer Interaction</b> (Mobile/Web Dev, Social Computing): CS193X, CS47, CS278</li>
               <li><b>Systems + Security</b>: CS107, CS110, CS155, CS145</li>
-              <li><b>Miscellaneous</b> (Graphics, Comp Bio, EE): CS148, CS274, ENGR40M</li>
+              <li><b>Miscellaneous</b> (Graphics, Comp Bio, EE): CS148, CS274, ENGR40M, CS269I</li>
             </ul>
           </section>
           <section>
