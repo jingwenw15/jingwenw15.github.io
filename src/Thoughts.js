@@ -108,6 +108,16 @@ function Thoughts() {
                              a plea, an ultimatum of sorts, and a resigned acceptance; with the ad-libs and slight melody change, it plays perfectly to Camila's strengths of interpreting songs in her own way and infusing them with her own emotions. 
                         </p>
                     </li>
+                    <li>
+                        <u>"Attitude" - fromis_9</u>
+                        <p>
+                            Simply put, fromis_9 makes music that just makes you feel good. The production on this track is impeccable, with a steady beat that perfectly encapsulates the song's radiantly confident message (my favorite lyric is "내 걱정은 마, 추락하듯이 보여도 난 자유로워", or "don't worry about me, even if it seems like I'm falling, I'm free"). No matter where and when I'm listening to this song, I feel like I'm a star on a runway and that 
+                            nothing is out of reach. The build-up in the prechorus is so dynamic, and the crisp layering of harmonies keeps the song feeling fresh and intriguing throughout; even after repeated listens, I still find myself noticing new motifs and elements
+                            in the instrumental. The smooth adlibs soaring over the last chorus are also out of this world. I highly recommend watching the performance of this song, because the creative direction of the choreography is just great, for 
+                            lack of better words. 
+                            
+                        </p>
+                    </li>
                 </section>
             </main>
             <footer>
