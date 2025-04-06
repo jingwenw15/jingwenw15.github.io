@@ -32,7 +32,7 @@ function Home() {
               <h2>Work</h2>
               <p><b>Microsoft Corporation</b></p>
               <ul>
-                <li>Software Engineer [July 2024 - Current] - Developer Division, Azure NGINX</li>
+                <li>Software Engineer [July 2024 - Current] - Developer Division, Azure Managed Redis</li>
                 <li>Software Engineer Intern [Summer 2023] - Developer Division, Azure NGINX</li>
                 <li>Software Engineer Intern [Summer 2022] - Developer Division, Azure Diagnostic Services</li>
                 <li>Explore Intern [Summer 2021] - Developer Division, Azure Diagnostic Services</li>
@@ -67,11 +67,11 @@ function Home() {
           <section>
             <h2>Skills</h2>
             <ul>
-              <li><b>Languages + Frameworks</b>: Python (NumPy, SciPy, PyTorch), C#, C++, C, Golang, JavaScript/HTML/CSS, Node.js, React/React Native, .NET, Unix</li>
-              <li><b>Infrastructure</b>: Azure, AWS, Kubernetes, Docker, Nginx</li>
-              <li><b>Tools</b>: Git, LaTeX, Visual Studio/VSCode, CI/CD (Azure DevOps)</li>
-              <li><b>Databases</b>: Firebase, Supabase, MongoDB, SQL</li>
-              <li><b>Miscellaneous</b>: Public Speaking, Product Management, Blender, Logic Pro, Canva :-)</li>
+              <li><b>Languages + Frameworks</b>: Python (NumPy, SciPy, PyTorch), C#, C++, C, Golang, JavaScript/HTML/CSS, Node.js, React, .NET, SQL</li>
+              <li><b>Infrastructure</b>: Azure, Kubernetes, Docker, CI/CD</li>
+              <li><b>Tools</b>: Git, Linux, Powershell, LaTeX, VS/VSCode</li>
+              <li><b>Databases</b>: Firebase, Supabase, MongoDB</li>
+              <li><b>Miscellaneous</b>: Public Speaking, Blender, Logic Pro, Canva :-)</li>
             </ul>
           </section>
           <section>
