@@ -66,7 +66,8 @@ function Home() {
           <ul>
             <li><b><a href="https://engineering.stanford.edu/students-academics/academics/frederick-emmons-terman-engineering-scholastic-award/terman-awards">Terman Award</a></b> - Awarded to top 30 graduating undergraduate students of the engineering department.</li>
             <li><b><a href="https://phibetakappa.stanford.edu/elected-students">Phi Beta Kappa</a></b> - Awarded for excellence and breadth of study in undergraduate academics.</li>
-            <li><b>Speech and Debate</b> - 2x National Qualifier (2018, 2019); District + Valley Champion - National Extemporaneous Speaking (2019)</li>
+            <li><b>Speech and Debate</b> - 2x National Qualifier (2018, 2019); District + Valley Champion - National Extemporaneous Speaking (2019) - I travelled around California and sometimes to other states to 
+            talk and argue for fun.</li>
           </ul>
         </section>
         <section>
