@@ -102,31 +102,19 @@ footer {
 }
 
 .navLink:hover {
-  /* background-color: pink; */
   color: #90155D;
 }
-
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 5%;
-  /* padding: 10px; */
 }
 
-.line-right {
-  height: 1px;
-  width: 100%; /* Adjust width as needed */
-  margin-left: 9%;
-  margin-right: 0%;
-  background-color: lightslategray;
-}
-
-.line-left {
-  height: 1px;
-  width: 100%; /* Adjust width as needed */
-  margin-left: 0%;
-  margin-right: 9%;
-  background-color: lightslategray;
+.navHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%
 }
