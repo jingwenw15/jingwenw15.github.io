@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { funSections } from '../data/site.js';
+---
+
+<BaseLayout
+  title="Fun"
+  currentPath="/fun-stuff"
+  pageIntro={{
+    heading: 'Fun',
+  }}
+>
+  <section class="text-list">
+    {funSections.map((section) => (
+      <article class="timeline-item">
+        <h2>{section.title}</h2>
+        <p>{section.description}</p>
+        <ul class="bullet-list">
+          {section.items.map((item) => (
+            <li>
+              {item.href ? (
+                <a class="text-link" href={item.href} target="_blank" rel="noreferrer">
+                  {item.label}
+                </a>
+              ) : (
+                item.label
+              )}
+            </li>
+          ))}
+        </ul>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

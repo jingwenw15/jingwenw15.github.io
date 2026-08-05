@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { aboutPage, siteMeta } from '../data/site.js';
+---
+
+<BaseLayout
+  title="About"
+  currentPath="/"
+  description={siteMeta.description}
+  pageIntro={{
+    eyebrow: aboutPage.eyebrow,
+    heading: '',
+    copy: aboutPage.intro,
+  }}
+>
+  <h1 class="typewriter-heading">{aboutPage.heading}</h1>
+
+  <section class="prose-flow">
+    {aboutPage.paragraphs.map((paragraph) => (
+      <p>{paragraph}</p>
+    ))}
+
+    <p>
+      Connect with me on
+      {' '}
+      {siteMeta.socialLinks.map((link, index) => (
+        <>
+          {index > 0 && ', '}
+          <a class="text-link" href={link.href}>{link.label}</a>
+        </>
+      ))}
+      .
+    </p>
+  </section>
+</BaseLayout>

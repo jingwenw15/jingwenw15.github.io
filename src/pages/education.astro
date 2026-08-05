@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { educationItems } from '../data/site.js';
+---
+
+<BaseLayout
+  title="Education"
+  currentPath="/education"
+  pageIntro={{
+    heading: 'Education',
+  }}
+>
+  <section class="text-list">
+    {educationItems.map((item) => (
+      <article class="timeline-item">
+        <div class="timeline-topline">
+          <div>
+            <h2>{item.school}</h2>
+            <p class="muted">{item.credential}</p>
+          </div>
+          <p class="chip">{item.period}</p>
+        </div>
+        <ul class="bullet-list">
+          {item.notes.map((note) => (
+            <li>{note}</li>
+          ))}
+        </ul>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

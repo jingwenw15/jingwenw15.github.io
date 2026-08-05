@@ -1,0 +1,80 @@
+---
+import '../styles/global.css';
+import { navItems, siteMeta } from '../data/site.js';
+
+const { title, description, currentPath = '/', pageIntro } = Astro.props;
+const pageTitle = title ? `${title} · ${siteMeta.title}` : siteMeta.title;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description ?? siteMeta.description} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="/">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>{siteMeta.name}</span>
+          </a>
+
+          <details class="mobile-nav">
+            <summary aria-label="Toggle navigation">Menu</summary>
+            <nav class="mobile-nav-panel">
+              {navItems.map((item) => (
+                <a
+                  href={item.href}
+                  class:list={[
+                    'mobile-nav-link',
+                    { active: currentPath === item.href },
+                  ]}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </nav>
+          </details>
+
+          <nav class="desktop-nav" aria-label="Primary">
+            {navItems.map((item) => (
+              <a
+                href={item.href}
+                class:list={['nav-link', { active: currentPath === item.href }]}
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+        </div>
+      </header>
+
+      <main class="container main-content">
+        {pageIntro && (
+          <section class="page-hero">
+            {pageIntro.eyebrow && <p class="eyebrow">{pageIntro.eyebrow}</p>}
+            <h1>{pageIntro.heading}</h1>
+            {pageIntro.copy && <p class="hero-copy">{pageIntro.copy}</p>}
+          </section>
+        )}
+
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© {new Date().getFullYear()} {siteMeta.name}</p>
+          <div class="footer-links">
+            {siteMeta.socialLinks.map((link) => (
+              <a href={link.href}>{link.label}</a>
+            ))}
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { workItems } from '../data/site.js';
+---
+
+<BaseLayout
+  title="Work"
+  currentPath="/work"
+  pageIntro={{
+    heading: 'Work',
+  }}
+>
+  <section class="text-list">
+    {workItems.map((item) => (
+      <article class="timeline-item">
+        <div class="timeline-topline">
+          <div>
+            <h2>{item.organization}</h2>
+          </div>
+          <p class="chip">{item.period}</p>
+        </div>
+        <p>{item.summary}</p>
+        <div class="role-list">
+          {item.roles.map((role) => (
+            <section class="role-item">
+              <div class="timeline-topline role-topline">
+                <h3>{role.title}</h3>
+                <p class="chip">{role.period}</p>
+              </div>
+              {role.bullets.length > 0 && (
+                <ul class="bullet-list role-bullets">
+                  {role.bullets.map((bullet) => (
+                    <li>{bullet}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          ))}
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>
