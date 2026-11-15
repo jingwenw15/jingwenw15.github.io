@@ -78,7 +78,10 @@ main { width: min(100%, calc(var(--jacket-size) * 1.42)); margin: 0 auto; paddin
 .sleeve.is-interactive { cursor: pointer; }
 .sleeve-inner { position: relative; width: 100%; aspect-ratio: 1; transform-style: preserve-3d; transition: transform .8s cubic-bezier(.3,.1,.2,1); }
 .sleeve.is-flipped .sleeve-inner { transform: rotateY(180deg); }
-.sleeve-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden; box-shadow: 0 2px 3px #0005, 0 18px 42px -16px #000a; }
+.sleeve-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; visibility: hidden; transition: visibility 0s linear .4s; overflow: hidden; box-shadow: 0 2px 3px #0005, 0 18px 42px -16px #000a; }
+.cover { visibility: visible; }
+.sleeve.is-flipped .cover { visibility: hidden; }
+.sleeve.is-flipped .liner { visibility: visible; }
 .sleeve-face::before { content: ""; position: absolute; inset: 14px; z-index: 4; border: 1px solid currentColor; opacity: .35; pointer-events: none; }
 .sleeve-face::after { content: ""; position: absolute; inset: 0; z-index: 5; pointer-events: none; background-image: url('/images/paper-grain.svg'); background-size: 240px 240px; mix-blend-mode: multiply; opacity: .6; box-shadow: inset 0 0 3px 1px #16030638, inset 0 0 35px #16030617; }
 .micro { font-size: clamp(8px, 1.5cqw, 13px); line-height: 1.4; text-transform: uppercase; letter-spacing: .1em; }
@@ -140,7 +143,13 @@ main { width: min(100%, calc(var(--jacket-size) * 1.42)); margin: 0 auto; paddin
   .header-links { gap: 22px; }
   .header-link { font-size: 10px; gap: 7px; }
   .sleeve { width: 82%; }
-  .cover { padding: 6cqw; }
+  .sleeve-inner { aspect-ratio: auto; transform-style: flat; transition: none; }
+  .sleeve.is-flipped { width: 100%; }
+  .sleeve.is-flipped .sleeve-inner { transform: none; }
+  .sleeve-face { position: relative; inset: auto; transition: none; }
+  .cover { aspect-ratio: 1; padding: 6cqw; }
+  .sleeve.is-flipped .cover { display: none; }
+  .record-stage:has(.sleeve.is-flipped) .record-art { visibility: hidden; }
   .sleeve-face::before { inset: 8px; }
   .cover-topline { padding-bottom: 14px; }
   .micro { font-size: clamp(8px, 1.8cqw, 11px); }
@@ -151,22 +160,23 @@ main { width: min(100%, calc(var(--jacket-size) * 1.42)); margin: 0 auto; paddin
   .record-label { gap: 5%; }
   .label-small { font-size: 1.7cqw; letter-spacing: .04em; }
   .cover-bottomline { left: 6cqw; right: 6cqw; bottom: 6cqw; font-size: 1.65cqw; }
-  .liner { padding: 20px; }
+  .liner { display: none; transform: none; padding: 26px; overflow: visible; overscroll-behavior: auto; }
+  .sleeve.is-flipped .liner { display: flex; }
   .liner-title { display: block; margin: 18px 0 22px; }
   .liner h2 { font-size: clamp(28px, 8cqw, 44px); }
   .liner-sections { grid-template-columns: 1fr; grid-template-areas: "education" "work" "music"; gap: 24px; }
-  .section-title { font-size: 10px; padding-bottom: 10px; }
-  .credits-list { margin-top: 15px; gap: 18px; }
-  .credits-list h4 { font-size: 15px; }
-  .credits-list p { font-size: 13px; }
-  .credits-list .credit-note { font-size: 12px; }
-  .credits-list .credit-date { font-size: 11px; margin-top: 4px; }
-  .tracks a { font-size: 15px; min-height: 46px; }
+  .section-title { font-size: 12px; padding-bottom: 10px; }
+  .credits-list { margin-top: 18px; gap: 22px; }
+  .credits-list h4 { font-size: 17px; line-height: 1.4; }
+  .credits-list p { font-size: 15px; line-height: 1.6; }
+  .credits-list .credit-note { font-size: 14px; }
+  .credits-list .credit-date { font-size: 13px; margin-top: 6px; opacity: 1; color: #7b3b3f; }
+  .tracks a { font-size: 16px; min-height: 52px; }
   .music-stamp { display: none; }
-  .liner-footer { font-size: 10px; margin-top: 0; padding-top: 24px; }
-  .liner-footer > span { max-width: 45%; line-height: 1.5; }
-  .sleeve-controls { min-height: 48px; }
-  .side-button { font-size: 10px; }
+  .liner-footer { font-size: 11px; margin-top: 0; padding-top: 28px; }
+  .liner-footer > span { max-width: 100%; line-height: 1.5; }
+  .sleeve-controls { position: sticky; top: 0; z-index: 10; min-height: 48px; background: var(--page); }
+  .side-button { font-size: 12px; }
   .page-footer { font-size: 9px; min-height: 54px; }
 }
 
