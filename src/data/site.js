@@ -3,7 +3,6 @@ export const siteMeta = {
   title: 'Jingwen Wu',
   description:
     'Personal website for Jingwen Wu.',
-  email: 'jingwenw@cs.stanford.edu',
   socialLinks: [
     { label: 'GitHub', href: 'https://github.com/jingwenw15' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jingwen15' },
@@ -20,21 +19,33 @@ export const navItems = [
 export const aboutPage = {
   heading: 'Hi, I’m Jingwen.',
   paragraphs: [
-    'I currently work at Microsoft Azure as a software engineer. Previously, I graduated from Stanford with a B.S. and M.S. in Computer Science with an AI specialization.',
+    'I currently work at GitHub as a software engineer. Previously, I worked at Microsoft Azure and graduated from Stanford with a B.S. and M.S. in Computer Science with an AI specialization.',
     'Outside of work, I enjoy singing, music production, playing instruments, cooking, vibe coding, reading Hacker News, and casually gaming.',
   ],
 };
 
 export const workItems = [
   {
+    organization: 'GitHub, Inc.',
+    period: 'August 2026 - Present',
+    summary: '',
+    roles: [
+      {
+        title: 'Software Engineer II',
+        period: 'August 2026 - Present',
+        bullets: [],
+      },
+    ],
+  },
+  {
     organization: 'Microsoft Corporation',
-    period: 'July 2024 - Present',
+    period: 'July 2024 - August 2026',
     summary:
       'I have been on various teams, including Azure Kubernetes Service, Azure Managed Redis, and NGINXaaS for Azure.',
     roles: [
       {
         title: 'Software Engineer II',
-        period: 'Sept 2025 - Present',
+        period: 'Sept 2025 - August 2026',
         bullets: [],
       },
       {
@@ -47,6 +58,7 @@ export const workItems = [
   {
     organization: 'Microsoft Corporation',
     period: 'Summer 2021 - Summer 2023',
+    displayRole: 'Engineering internships',
     summary:
       '',
     roles: [
@@ -78,6 +90,7 @@ export const workItems = [
   {
     organization: 'Stanford University',
     period: 'Summer 2020 - Spring 2024',
+    displayRole: 'Teaching & research',
     summary:
       '',
     roles: [
