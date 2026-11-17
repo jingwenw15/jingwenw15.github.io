@@ -39,7 +39,7 @@ export const workItems = [
   },
   {
     organization: 'Microsoft Corporation',
-    period: 'July 2024 - August 2026',
+    period: 'Sept 2024 - August 2026',
     summary:
       'I have been on various teams, including Azure Kubernetes Service, Azure Managed Redis, and NGINXaaS for Azure.',
     roles: [
@@ -50,40 +50,8 @@ export const workItems = [
       },
       {
         title: 'Software Engineer',
-        period: 'July 2024 - Sept 2025',
+        period: 'Sept 2024 - Sept 2025',
         bullets: [],
-      },
-    ],
-  },
-  {
-    organization: 'Microsoft Corporation',
-    period: 'Summer 2021 - Summer 2023',
-    displayRole: 'Engineering internships',
-    summary:
-      '',
-    roles: [
-      {
-        title: 'Software Engineer Intern',
-        period: 'Summer 2023',
-        bullets: [
-          'Designed and implemented a proof-of-concept using NGINXaaS for Azure as the ingress controller for Azure Kubernetes Service.',
-          'Covered traffic management, reverse proxy, L7 load balancing, SSL termination, SSL redirect, and health probing.',
-        ],
-      },
-      {
-        title: 'Software Engineer Intern',
-        period: 'Summer 2022',
-        bullets: [
-          'Implemented, integrated, and deployed a new source of automated analysis for diagnostic traces of Azure customer applications.',
-        ],
-      },
-      {
-        title: 'Explore Intern',
-        period: 'Summer 2021',
-        bullets: [
-          'Wrote a proof-of-concept for an Azure Functions profiler.',
-          'Provided low-level CPU and memory data to help developers identify bottlenecks and improve Azure Functions performance.',
-        ],
       },
     ],
   },

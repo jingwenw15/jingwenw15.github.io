@@ -5,7 +5,7 @@ import '../styles/record.css';
 const music = funSections.find((section) => section.title === 'Music')?.items ?? [];
 const experience = workItems.map((item) => ({
   organization: item.organization,
-  period: item.displayRole ? item.period : item.roles[0].period,
+  period: item.period,
   role: item.displayRole ?? item.roles[0].title,
 }));
 const linkedin = siteMeta.socialLinks.find((link) => link.label === 'LinkedIn')!;
